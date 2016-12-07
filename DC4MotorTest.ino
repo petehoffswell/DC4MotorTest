@@ -110,7 +110,7 @@ void loop() {
   // * If you are working with a SparkFun Multi-Chassis - Tank Version, change your speed to 255 to give more power.
   // * If you just testing, you might want to comment all but one of the subroutine calls below to test just a single step
   //
-  int speed = 50;  // 0 to 255 but understand that your motor may not turn at less than 35.  This is called "Deadzone"
+  int speed = 50;  // 0 to 255 but understand that your motor may not turn at slower speeds.  This is called "Deadzone"
   int duration = 1000;
   StepForward(speed, duration);
   StepBackward(speed, duration);
